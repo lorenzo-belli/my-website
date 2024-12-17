@@ -174,3 +174,48 @@ footer {
 footer p {
     font-size: 1em;
 }
+
+/* Add a style to the active navigation link */
+nav ul li a.active {
+    font-weight: bold;
+    color: #003366;  /* Dark blue to highlight the active page */
+}
+
+/* Basic styles for the section titles */
+h2 {
+    font-size: 2em;
+    color: #003366; /* Dark blue color for section titles */
+    text-align: center;
+}
+
+/* Style for the header section */
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* Styling for the links in navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #003366;
+}

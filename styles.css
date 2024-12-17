@@ -1,170 +1,46 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and Font Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-/* Header Styling */
 header {
-    background-color: #003366; /* Dark Blue */
-    color: #fff;
-    padding: 20px 0;
+    background: #f8f8f8;
+    padding: 1rem;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
-/* About Me Section */
-#about {
-    padding: 40px 20px;
-    background-color: #e6f0f5; /* Light Blue */
-    text-align: center;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-#about h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
 }
 
-.about-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.profile-photo {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
-
-#about p {
-    max-width: 600px;
-    margin-top: 20px;
-    font-size: 1.2em;
-}
-
-/* Research Section */
-#research {
-    padding: 40px 20px;
-    background-color: #fff;
-    text-align: center;
-}
-
-#research h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-/* CV Section */
-#cv {
-    padding: 40px 20px;
-    background-color: #e6f0f5;
-    text-align: center;
-}
-
-#cv h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.cv-link {
+a {
     text-decoration: none;
-    font-size: 1.2em;
-    color: #003366;
-    border: 2px solid #003366;
-    padding: 10px 20px;
-    border-radius: 5px;
+    color: #0078d4;
 }
 
-.cv-link:hover {
-    background-color: #003366;
-    color: #fff;
+main {
+    padding: 2rem;
 }
 
-/* PhD Thesis Section */
-#thesis {
-    padding: 40px 20px;
-    background-color: #fff;
-    text-align: center;
+section {
+    margin-bottom: 2rem;
 }
 
-#thesis h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.thesis-link {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: #003366;
-    border: 2px solid #003366;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.thesis-link:hover {
-    background-color: #003366;
-    color: #fff;
-}
-
-/* Contact Section */
-#contact {
-    padding: 40px 20px;
-    background-color: #e6f0f5;
-    text-align: center;
-}
-
-#contact h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-#contact a {
-    color: #003366;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styling */
 footer {
-    background-color: #003366;
-    color: #fff;
-    padding: 20px 0;
     text-align: center;
-}
-
-footer p {
-    font-size: 1em;
-}
-
-/* Add a style to the active navigation link */
-nav ul li a.active {
-    font-weight: bold;
-    color: #003366;  /* Dark blue to highlight the active page */
-}
-
-/* Basic styles for the section titles */
-h2 {
-    font-size: 2em;
-    color: #003366; /* Dark blue color for section titles */
-    text-align: center;
+    padding: 1rem;
+    background: #f1f1f1;
 }

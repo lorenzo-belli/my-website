@@ -47,9 +47,10 @@ header nav ul li a:hover {
 
 /* About Me Section */
 #about {
-    padding: 40px 20px;
+    padding: 40px 0;
     background-color: #e6f0f5; /* Light Blue */
     text-align: center;
+    width: 100%; 
 }
 
 #about h2 {
@@ -59,17 +60,24 @@ header nav ul li a:hover {
 
 .about-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: justify;
+    align-items: justify;
     gap: 20px;
     flex-wrap: wrap;
 }
 
 .profile-photo {
-    border-radius: 60%;
+    border-radius: 100%;
     width: 150px;
     height: 150px;
     object-fit: cover;
+}
+
+.profile-photo {
+    border-radius: 0%; /* Square image */
+    width: 250px; /* Increase image size */
+    height: 250px; /* Make it square */
+    object-fit: cover; /* Ensure the image covers the space */
 }
 
 #about p {
@@ -105,11 +113,21 @@ header nav ul li a:hover {
 }
 
 .about-description {
-    margin: 20px auto;
-    max-width: 800px;
-    font-size: 1rem;
+    display: flex; /* Use flexbox layout */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Vertically align items in the middle */
+    margin: 0 auto; /* Center the container */
+    max-width: 1000px; /* Optional: max-width to control layout */
+    gap: 20px; /* Add space between the image and text */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.about-description p {
+    font-size: 1.1rem; /* Optional: increase font size */
     line-height: 1.6;
-    text-align: justify;
+    text-align: justify; /* Justify the text */
+    max-width: 600px; /* Optional: restrict text width */
 }
 
 /* Research Section */

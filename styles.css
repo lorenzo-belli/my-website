@@ -48,7 +48,7 @@ header nav ul li a:hover {
 /****** About Me Section ******/
 
 #about {
-    padding: 40px 0;
+    padding: 40px 20px;
     background-color: #e6f0f5; /* Light Blue */
     text-align: center;
     width: 100%; 
@@ -75,7 +75,7 @@ header nav ul li a:hover {
 }
 
 .profile-photo {
-    border-radius: 0%; /* Square image */
+    border-radius: 50%; /* Square image */
     width: 250px; /* Increase image size */
     height: 250px; /* Make it square */
     object-fit: cover; /* Ensure the image covers the space */
@@ -85,6 +85,7 @@ header nav ul li a:hover {
     max-width: 600px;
     margin-top: 20px;
     font-size: 1.2em;
+    text-align: justify; /* Optional: Justify the text */
 }
 
 .image-banner {

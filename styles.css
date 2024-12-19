@@ -248,7 +248,8 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Footer Styling */
+/****** Footer Styling ******/
+
 footer {
     background-color: #003366;
     color: #fff;

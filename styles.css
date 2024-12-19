@@ -45,7 +45,8 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* About Me Section */
+/****** About Me Section ******/
+
 #about {
     padding: 40px 0;
     background-color: #e6f0f5; /* Light Blue */
@@ -98,6 +99,7 @@ header nav ul li a:hover {
     width: 80%;
     height: auto;
     object-fit: cover; /* Ensures the image covers the container */
+    filter: grayscale(100%)
 }
 
 .overlay-text {
@@ -130,7 +132,8 @@ header nav ul li a:hover {
     max-width: 600px; /* Optional: restrict text width */
 }
 
-/* Research Section */
+/****** Research Section ******/
+
 #research {
     padding: 40px 20px;
     background-color: #e6f0f5;
@@ -142,7 +145,62 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* CV Section */
+/****** PhD Thesis Section ******/
+
+#thesis {
+    padding: 40px 20px;
+    background-color: #e6f0f5;
+    text-align: center;
+}
+
+#thesis h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#thesis p {
+    max-width: 800px; /* Limit the width of the text block */
+    margin: 0 auto; /* Center the block horizontally */
+    text-align: justify; /* Justify the text */
+    font-size: 1.2em; /* Optional: adjust font size */
+    line-height: 1.8; /* Optional: increase line height for better readability */
+}
+
+.thesis-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #003366;
+    border: 2px solid #003366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block; /* Ensures proper centering of the button */
+    margin-top: 20px; /* Adds spacing above the button */
+}
+
+.thesis-link:hover {
+    background-color: #003366;
+    color: #fff;
+}
+
+
+/****** Teaching ******/
+
+#teach {
+    padding: 40px 20px;
+    background-color: #e6f0f5;
+    text-align: center;
+}
+
+#teach p {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: justify; 
+    font-size: 1.2em; 
+    line-height: 1.8; 
+}
+
+/****** CV Section ******/
+
 #cv {
     padding: 40px 20px;
     background-color: #e6f0f5;
@@ -168,33 +226,8 @@ header nav ul li a:hover {
     color: #fff;
 }
 
-/* PhD Thesis Section */
-#thesis {
-    padding: 40px 20px;
-    background-color: #e6f0f5;
-    text-align: center;
-}
+/****** Contact Section ******/
 
-#thesis h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.thesis-link {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: #003366;
-    border: 2px solid #003366;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.thesis-link:hover {
-    background-color: #003366;
-    color: #fff;
-}
-
-/* Contact Section */
 #contact {
     padding: 40px 20px;
     background-color: #e6f0f5;
